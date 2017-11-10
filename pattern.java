@@ -2,6 +2,9 @@
         Created and modified by Ajmal Shah.
         includes different patterns in one program
         with pre-difined size n (can be easily replaced).
+        Think the square as a metrix with its intex, go though
+        the code in such a way that you are able fill the spaces
+        of an metrix.
 */
 public class pattern {
 
@@ -203,7 +206,7 @@ public class pattern {
         System.out.println("#### RHOMBUS PATTERN ####");
         System.out.println("_________________________");
         System.out.println();
-        
+
         for(int r =0; r<n-1; r++)
         {
             for(int space=0; space <n-1-r; space ++)
